@@ -1,0 +1,64 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+sitemap:
+  exclude: 'yes'
+---
+@charset "utf-8";
+
+/* =Colors */
+$dorian: #F5F5F5;
+$iron: #333333;
+$cloudy: #828282;
+
+@import
+    "mixins",
+    "default",
+    "404"
+;
+
+.side-menu {
+  float: right;
+  font-size: 16px;
+  list-style-type: none; }
+
+.menu {
+  font-size: 16px;
+  color: #828282;
+}
+
+
+a {
+    color: #3582a3;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+p {
+    font-size: 16px;
+    line-height: 32px;
+    text-align: left;
+}
+
+.container {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 25px;
+}
+
+.separator-block {
+    background-color: rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    height: 4px;
+    width: 75px;
+}
+
+h2 {
+  font-size: 16px;
+  margin: 0.67em 0;
+}
+
+h4 {
+  font-size: 24px;
+  padding-bottom: 0px;
+}
