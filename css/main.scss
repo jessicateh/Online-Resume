@@ -4,6 +4,7 @@ sitemap:
   exclude: 'yes'
 ---
 @charset "utf-8";
+@include embed-font ("Inconsolata", "/assets/vendor/font-awesome/fonts/Inconsolata-Regular.ttf");
 
 /* =Colors */
 $dorian: #F5F5F5;
@@ -30,7 +31,7 @@ $cloudy: #828282;
 
 a {
     color: #3582a3;
-    font-family: helvetica;
+    font-family: 'Inconsolata';
     font-weight: bold;
     text-decoration: none;
 }
@@ -42,7 +43,6 @@ body {
     
 explore {
     text-align: center;
-    font-family: helvetica;
     color: #828282;
 
 p {
