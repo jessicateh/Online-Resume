@@ -1,5 +1,5 @@
 /* =Base */
-h4 {
+body {
     font-family: 'Inconsolata', ;
     color: $iron;
     background-color: $dorian;
@@ -7,6 +7,7 @@ h4 {
 
 a {
     color: $cloudy;
+    font-family: helvetica;
     font-weight: bold;
     text-decoration: none;
 
@@ -87,6 +88,7 @@ strong {
 .menu {
     color: $cloudy;
     font-size: 18px;
+    font-family: helvetica;
     margin:0px;
     margin-top: 6px;
     padding: 0px;
@@ -109,6 +111,7 @@ strong {
 .social-links {
     float:right;
     font-size: 24px;
+    font-family: helvetica;
     color: $cloudy;
     list-style-type: none;
 }
